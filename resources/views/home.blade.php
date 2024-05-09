@@ -6,7 +6,7 @@
     <title>REGISTRATION</title>
 </head>
 <body>
-    <form action="welcome.blade.php">
+    <form action="{{ route('posts.store') }}">
         <label for="username">Username: </label>
         <input type="text" placeholder="username">
         <label for="password">Password: </label>
